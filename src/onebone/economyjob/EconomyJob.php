@@ -179,12 +179,13 @@ class EconomyJob extends PluginBase implements Listener{
 					
 				}
 			});
-			$form->setTitle("§7EconomyJob UI");
-			$form->setContent("You job: -");
-			$form->addButton("Job-Join");
-			$form->addButton("Job-Me");
-			$form->addButton("Job-Info");
-			$form->addButton("Job-Retire");
+			$form->setTitle("§7EconomyJobUI V2");
+			$job = $this->player->get($player->getName());
+			$form->setContent("อาชีพของคุณ : $job");
+			$form->addButton("Join\nสมัคอาชีพ", 1, "http://avengetech.me/items/271-0.png");
+			$form->addButton("Status\nดูอาชีพของคุณ", 1, "http://avengetech.me/items/271-0.png");
+			$form->addButton("About\nเกี่ยวกับ , เครดิต", 1, "http://avengetech.me/items/271-0.png");
+			$form->addButton("Retire\nลาออกจากอาชีพ", 1, "http://avengetech.me/items/271-0.png");
 			$form->sendToPlayer($player);
 			return $form;
 	}
