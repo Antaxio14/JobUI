@@ -16,7 +16,7 @@ author: Antaxio
 
 commands:
  job:
-  description: Job master command
+  description: JobUI
   usage: /job <join|retire|list|me>
   permission: economyjob.command.job
 permissions:
