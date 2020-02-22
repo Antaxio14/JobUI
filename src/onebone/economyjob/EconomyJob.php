@@ -225,7 +225,7 @@ class EconomyJob extends PluginBase implements Listener{
 					
 				}
 			});
-			$form->setTitle("§7SugarPocket Job");
+			$form->setTitle("Antaxio Jobs");
 			$form->addButton("Tree-Cutter\n2$", 1, "http://avengetech.me/items/17-0.png");
 			$form->addButton("Miner\n$1", 1, "http://avengetech.me/items/1-0.png");
 			$form->addButton("Melon\n5$", 1, "http://avengetech.me/items/103-0.png");
@@ -249,7 +249,7 @@ class EconomyJob extends PluginBase implements Listener{
 			}
 		});
 		$form->setTitle("Job Info");
-		$form->setContent("EconomyJob UI\n\nCreate By Ookittisako0\nCr.onebone\nMyServer\n\nIP: sgpk.ddns.net\nPort 19132\nVersion 1.5.3\n\n§c**No Edit File Config.yml**");
+		$form->setContent("plugin by antaxio custom plugin in data and master !!");
 		$form->addButton("Okey!");	
 		$form->sendToPlayer($player);
 	}
