@@ -90,7 +90,7 @@ class EconomyJob extends PluginBase implements Listener{
 				$money = $job[$block->getID().":".$block->getDamage().":break"];
 				if($money > 0){
 					$this->api->addMoney($player, $money);
-					$player->sendPopup("§b+ Money for Job");
+					$player->sendPopup("§1[§0+§4Monet for your jonb");
 				}else{
 					$this->api->reduceMoney($player, $money);
 				}
@@ -179,13 +179,14 @@ class EconomyJob extends PluginBase implements Listener{
 					
 				}
 			});
-			$form->setTitle("§7EconomyJobUI V2");
+			$form->setTitle("§1JOBS");
 			$job = $this->player->get($player->getName());
-			$form->setContent("อาชีพของคุณ : $job");
-			$form->addButton("Join\nสมัคอาชีพ", 1, "http://avengetech.me/items/271-0.png");
-			$form->addButton("Status\nดูอาชีพของคุณ", 1, "http://avengetech.me/items/271-0.png");
-			$form->addButton("About\nเกี่ยวกับ , เครดิต", 1, "http://avengetech.me/items/271-0.png");
-			$form->addButton("Retire\nลาออกจากอาชีพ", 1, "http://avengetech.me/items/271-0.png");
+			$form->setContent("plugin by Antaxio discord:§4Antaxio#4013: 
+			$job");
+			$form->addButton("Join\", 1, "http://avengetech.me/items/271-0.png");
+			$form->addButton("Status\", 1, "http://avengetech.me/items/271-0.png");
+			$form->addButton("About\", 1, "http://avengetech.me/items/271-0.png");
+			$form->addButton("Retire\", 1, "http://avengetech.me/items/271-0.png");
 			$form->sendToPlayer($player);
 			return $form;
 	}
