@@ -228,10 +228,10 @@ class EconomyJob extends PluginBase implements Listener{
 			});
 			$form->setTitle("Antaxio Jobs");
 			$form->addButton("Tree-Cutter\n2$", 1, "http://avengetech.me/items/17-0.png");
-			$form->addButton("Miner\n$1", 1, "http://avengetech.me/items/1-0.png");
-			$form->addButton("Melon\n5$", 1, "http://avengetech.me/items/103-0.png");
-			$form->addButton("Pumpkin\n5$", 1, "http://avengetech.me/items/86-0.png");
-			$form->addButton("Flower\n1$", 1, "http://avengetech.me/items/37-0.png");
+			$form->addButton("Mineur\n$1", 1, "http://avengetech.me/items/1-0.png");
+			$form->addButton("Farmer\n5$", 1, "http://avengetech.me/items/103-0.png");
+			$form->addButton("Hunter\n5$", 1, "http://avengetech.me/items/86-0.png");
+			$form->addButton("Lumberjack\n1$", 1, "http://avengetech.me/items/37-0.png");
 			$form->sendToPlayer($player);
 			return $form;
 	}
@@ -250,7 +250,7 @@ class EconomyJob extends PluginBase implements Listener{
 			}
 		});
 		$form->setTitle("Job Info");
-		$form->setContent("plugin by antaxio custom plugin in data and master !!");
+		$form->setContent("plugin by antaxio custom plugin in data and master thank you !!");
 		$form->addButton("Okey!");	
 		$form->sendToPlayer($player);
 	}
