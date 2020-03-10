@@ -90,7 +90,7 @@ class EconomyJob extends PluginBase implements Listener{
 				$money = $job[$block->getID().":".$block->getDamage().":break"];
 				if($money > 0){
 					$this->api->addMoney($player, $money);
-					$player->sendPopup("§1[§0+§4Monet for your jonb");
+					$player->sendPopup("§1[§0+§4Money On Your 🏦");
 				}else{
 					$this->api->reduceMoney($player, $money);
 				}
