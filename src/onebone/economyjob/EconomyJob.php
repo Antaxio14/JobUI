@@ -251,7 +251,7 @@ class EconomyJob extends PluginBase implements Listener{
 			}
 		});
 		$form->setTitle("Job Info");
-		$form->setContent("plugin by antaxio custom plugin in data and master thank you !!");
+		$form->setContent("plugin by antaxio sub my channel: AntaxioYTcustom plugin in data and master thank you !!");
 		$form->addButton("Okey!");	
 		$form->sendToPlayer($player);
 	}
