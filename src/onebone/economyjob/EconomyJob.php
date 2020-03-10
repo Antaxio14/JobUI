@@ -2,9 +2,10 @@
 
 /*
  * EconomyS, the massive economy plugin with many features for PocketMine-MP
- * Copyright (C) 2013-2015  onebone <jyc00410@gmail.com>
+ * Copyright (C) 2013-2015  antaxio discord: Antaxio#4013
+ * Sub My Channel Youtube AntaxioYT
  *
- * This program is free software: you can redistribute it and/or modify
+ * This param is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
@@ -174,7 +175,7 @@ class EconomyJob extends PluginBase implements Listener{
 					case "3";
 					$job = $this->player->get($player->getName());
 					$this->player->remove($player->getName());
-					$player->sendMessage("§l§7[§6Jobs§7] §cคุณได้ลาออกจากอาชีพ \"$job\"");
+					$player->sendMessage("§l§7[§6Jobs§7] §cคุณได้ลาออกจากอาชีพ \"$job\");
 					break;
 					
 				}
